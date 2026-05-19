@@ -1,4 +1,4 @@
-# Graph Reordering - BFS Ordering
+# Graph Generator with NetworkX in Python
 A Python-based random graph generator built with NetworkX. This tool can generate several graph models, optionally assign random edge weights, export graphs as __**edge lists**__, and visualize small graphs.
 
 Supported graph models:
