@@ -11,7 +11,7 @@ This project aims to compare the effectiveness of graph reordering using BFS Ord
 │    konectINIT.cpp      # Initialize KONECT dataset
 │    make_bidirected.cpp # Convert graph to bidirected graph
 ├─generate 
-│    gg.py               # Generate random graphs using networkx
+│    genGraph.py               # Generate random graphs using networkx
 ├─reordering
 │    reorder.cpp         # Graph reordering algorithm
 ```
@@ -19,8 +19,8 @@ This project aims to compare the effectiveness of graph reordering using BFS Ord
 
 ## Usage
 #### Step 1
-Download datasets from [KONECT](http://konect.cc/networks/)
-and use `convert/konectINIT.cpp` to initialize the graph, outputting graph files with `.el` extension.
+Download datasets from KONECT (http://konect.cc/networks/) and use convert/konectINIT.cpp to initialize the graph, 
+outputting graph files with .el extension, or generate graphs directly in the generate folder using genGraph.py.
 
 #### Step 2
 Place the `.el` files into the `reordering` folder and run `reorder.cpp` to obtain results after reordering.
