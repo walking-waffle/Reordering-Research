@@ -11,7 +11,7 @@ This project aims to compare the effectiveness of graph reordering using BFS Ord
 │    konectINIT.cpp      # Initialize KONECT dataset
 │    make_bidirected.cpp # Convert graph to bidirected graph
 ├─generate 
-│    genGraph.py               # Generate random graphs using networkx
+│    genGraph.py         # Generate random graphs using networkx
 ├─reordering
 │    reorder.cpp         # Graph reordering algorithm
 ```
